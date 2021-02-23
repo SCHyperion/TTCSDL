@@ -1,0 +1,12 @@
+C:\Users\Crimson Dragon\source\repos\Student Manag Proj\Student Manag Proj\bin\Debug\Student Manag Proj.exe.config
+C:\Users\Crimson Dragon\source\repos\Student Manag Proj\Student Manag Proj\bin\Debug\Student Manag Proj.exe
+C:\Users\Crimson Dragon\source\repos\Student Manag Proj\Student Manag Proj\bin\Debug\Student Manag Proj.pdb
+C:\Users\Crimson Dragon\source\repos\Student Manag Proj\Student Manag Proj\obj\Debug\QL Cua Hang.csprojAssemblyReference.cache
+C:\Users\Crimson Dragon\source\repos\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.Forms.form_Login.resources
+C:\Users\Crimson Dragon\source\repos\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.form_MainMenu.resources
+C:\Users\Crimson Dragon\source\repos\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.Properties.Resources.resources
+C:\Users\Crimson Dragon\source\repos\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.User_Controls.uc_ListSanPham.resources
+C:\Users\Crimson Dragon\source\repos\Student Manag Proj\Student Manag Proj\obj\Debug\QL Cua Hang.csproj.GenerateResource.cache
+C:\Users\Crimson Dragon\source\repos\Student Manag Proj\Student Manag Proj\obj\Debug\QL Cua Hang.csproj.CoreCompileInputs.cache
+C:\Users\Crimson Dragon\source\repos\Student Manag Proj\Student Manag Proj\obj\Debug\Student Manag Proj.exe
+C:\Users\Crimson Dragon\source\repos\Student Manag Proj\Student Manag Proj\obj\Debug\Student Manag Proj.pdb
