@@ -130,11 +130,13 @@
             this.pictureBox1.Location = new System.Drawing.Point(301, 42);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(107, 138);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
             // button_Cancel
             // 
+            this.button_Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button_Cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Cancel.Location = new System.Drawing.Point(98, 238);
             this.button_Cancel.Name = "button_Cancel";
@@ -142,6 +144,7 @@
             this.button_Cancel.TabIndex = 11;
             this.button_Cancel.Text = "Hủy bỏ";
             this.button_Cancel.UseVisualStyleBackColor = true;
+            this.button_Cancel.Click += new System.EventHandler(this.button_Cancel_Click);
             // 
             // button_Confirm
             // 
@@ -152,6 +155,7 @@
             this.button_Confirm.TabIndex = 12;
             this.button_Confirm.Text = "Xác nhận";
             this.button_Confirm.UseVisualStyleBackColor = true;
+            this.button_Confirm.Click += new System.EventHandler(this.button_Confirm_Click);
             // 
             // button_ThemAnh
             // 

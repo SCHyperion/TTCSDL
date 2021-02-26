@@ -17,5 +17,14 @@ namespace Student_Manag_Proj.Forms
             InitializeComponent();
         }
 
+        private void button_Cancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button_Confirm_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

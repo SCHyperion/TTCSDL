@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Student_Manag_Proj.Classes;
 using System.Data.SqlClient;
 using System.IO;
+using Student_Manag_Proj.Forms;
 
 namespace Student_Manag_Proj.User_Controls
 {
@@ -110,6 +111,22 @@ namespace Student_Manag_Proj.User_Controls
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void button_ThemSanPham_Click(object sender, EventArgs e)
+        {
+            ThemSP form = new ThemSP();
+            form.Show();
+        }
+
+        private void button_SuaThongTin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_XoaSanPham_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

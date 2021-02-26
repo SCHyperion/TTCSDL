@@ -68,6 +68,7 @@
             this.button_XoaSanPham.TabIndex = 17;
             this.button_XoaSanPham.Text = "Xóa sản phẩm";
             this.button_XoaSanPham.UseVisualStyleBackColor = true;
+            this.button_XoaSanPham.Click += new System.EventHandler(this.button_XoaSanPham_Click);
             // 
             // button_SuaThongTin
             // 
@@ -77,6 +78,7 @@
             this.button_SuaThongTin.TabIndex = 16;
             this.button_SuaThongTin.Text = "Sửa thông tin";
             this.button_SuaThongTin.UseVisualStyleBackColor = true;
+            this.button_SuaThongTin.Click += new System.EventHandler(this.button_SuaThongTin_Click);
             // 
             // button_ThemSanPham
             // 
@@ -86,6 +88,7 @@
             this.button_ThemSanPham.TabIndex = 15;
             this.button_ThemSanPham.Text = "Thêm sản phẩm";
             this.button_ThemSanPham.UseVisualStyleBackColor = true;
+            this.button_ThemSanPham.Click += new System.EventHandler(this.button_ThemSanPham_Click);
             // 
             // groupBox2
             // 
