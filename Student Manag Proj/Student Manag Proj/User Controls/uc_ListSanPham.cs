@@ -24,10 +24,10 @@ namespace Student_Manag_Proj.User_Controls
         {
             SQLQuery query = new SQLQuery();
             query.Connect();
-            if(query.checkConnection())
+            if (query.checkConnection())
             {
                 // init image list
-                DirectoryInfo dir = new DirectoryInfo(@"D:\TTCSDL\Img_ListSanPham");
+                DirectoryInfo dir = new DirectoryInfo(@"D:\TTCSDL\TTCSDL\Img_ListSanPham");
                 foreach (FileInfo file in dir.GetFiles())
                 {
                     try
@@ -43,6 +43,7 @@ namespace Student_Manag_Proj.User_Controls
                 this.imageList1.ImageSize = new Size(105, 105);
                 this.listview_ListSanPham.LargeImageList = this.imageList1;
 
+                // init image items
                 for (int j = 0; j < this.imageList1.Images.Count; j++)
                 {
                     ListViewItem item = new ListViewItem();
@@ -66,12 +67,12 @@ namespace Student_Manag_Proj.User_Controls
                             tensanpham = reader["Ten"].ToString(),
                             giaban = (long)reader["GiaBan"],
                             manhom = reader["MaNhom"].ToString(),
-                            manhacungcap= reader["MaNCC"].ToString(),
+                            manhacungcap = reader["MaNCC"].ToString(),
                             anhdd = reader["HinhAnh"].ToString(),
                         });
                     }
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
                 }
@@ -81,6 +82,7 @@ namespace Student_Manag_Proj.User_Controls
                     SQLQuery.connection.Close();
                 }
             }
+            else MessageBox.Show("Không thể kết nối tới Database");
         }
 
         private void uc_ListSanPham_Load(object sender, EventArgs e)
@@ -100,8 +102,8 @@ namespace Student_Manag_Proj.User_Controls
                     textbox_TenSanPham.Text = curItem.tensanpham;
                     textbox_NhaCungCap.Text = curItem.manhacungcap;
                     textbox_GiaBan.Text = curItem.giaban.ToString();
-                    // Gán ảnh đại diện
-                    picturebox_HinhSanPham.Image = new Bitmap(@"D:\TTCSDL\Img_ListSanPham\" + curItem.anhdd);
+                    // Show current item's image
+                    picturebox_HinhSanPham.Image = new Bitmap(@"D:\TTCSDL\TTCSDL\Img_ListSanPham\" + curItem.anhdd);
                 }
             }
             catch (Exception ex)
