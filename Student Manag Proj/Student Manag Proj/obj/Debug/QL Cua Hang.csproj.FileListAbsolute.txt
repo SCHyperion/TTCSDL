@@ -23,3 +23,19 @@ D:\TTCSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\QL Cua Hang.csp
 D:\TTCSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student Manag Proj.exe
 D:\TTCSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student Manag Proj.pdb
 D:\TTCSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.Forms.ThemSP.resources
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\bin\Debug\Student Manag Proj.exe.config
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\bin\Debug\Student Manag Proj.exe
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\bin\Debug\Student Manag Proj.pdb
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\QL Cua Hang.csprojAssemblyReference.cache
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.Forms.form_Login.resources
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.Forms.ThemSP.resources
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.form_MainMenu.resources
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.Properties.Resources.resources
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.User_Controls.uc_ListSanPham.resources
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\QL Cua Hang.csproj.GenerateResource.cache
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\QL Cua Hang.csproj.CoreCompileInputs.cache
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student Manag Proj.exe
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student Manag Proj.pdb
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.Forms.DanhSachKH.resources
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.Forms.TimKHTheoMa.resources
+G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.Forms.TimKHTheoTen.resources

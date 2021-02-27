@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="Classes\SanPham.cs" />
     <Compile Include="Classes\SQLQuery.cs" />
+    <Compile Include="Forms\DanhSachKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DanhSachKH.Designer.cs">
+      <DependentUpon>DanhSachKH.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +65,18 @@
     </Compile>
     <Compile Include="Forms\ThemSP.Designer.cs">
       <DependentUpon>ThemSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TimKHTheoMa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TimKHTheoMa.Designer.cs">
+      <DependentUpon>TimKHTheoMa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TimKHTheoTen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TimKHTheoTen.Designer.cs">
+      <DependentUpon>TimKHTheoTen.cs</DependentUpon>
     </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
@@ -74,11 +92,20 @@
     <Compile Include="User Controls\uc_ListSanPham.Designer.cs">
       <DependentUpon>uc_ListSanPham.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\DanhSachKH.resx">
+      <DependentUpon>DanhSachKH.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ThemSP.resx">
       <DependentUpon>ThemSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TimKHTheoMa.resx">
+      <DependentUpon>TimKHTheoMa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TimKHTheoTen.resx">
+      <DependentUpon>TimKHTheoTen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
