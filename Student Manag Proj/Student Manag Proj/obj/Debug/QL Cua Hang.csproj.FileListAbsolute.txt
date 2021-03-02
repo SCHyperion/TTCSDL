@@ -39,3 +39,6 @@ G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Stud
 G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.Forms.DanhSachKH.resources
 G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.Forms.TimKHTheoMa.resources
 G:\Thực tập CSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.Forms.TimKHTheoTen.resources
+D:\TTCSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.Forms.DanhSachKH.resources
+D:\TTCSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.Forms.TimKHTheoMa.resources
+D:\TTCSDL\TTCSDL\Student Manag Proj\Student Manag Proj\obj\Debug\Student_Manag_Proj.Forms.TimKHTheoTen.resources
