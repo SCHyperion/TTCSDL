@@ -11,7 +11,7 @@ namespace Student_Manag_Proj.Classes
 {
     class SQLQuery
     {
-        public static string source = @"Data Source=localhost\SQLEXPRESS; Database=CuaHangTienLoi; Integrated Security=true;";
+        public string source = @"Data Source=localhost\SQLEXPRESS; Database=CuaHangTienLoi; Integrated Security=true;";
         public static SqlConnection connection;
         public void Connect()
         {
