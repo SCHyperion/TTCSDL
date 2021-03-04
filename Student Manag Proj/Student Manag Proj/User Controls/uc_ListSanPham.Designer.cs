@@ -115,6 +115,7 @@
             this.textbox_NhaCungCap.Enabled = false;
             this.textbox_NhaCungCap.Location = new System.Drawing.Point(100, 91);
             this.textbox_NhaCungCap.Name = "textbox_NhaCungCap";
+            this.textbox_NhaCungCap.ReadOnly = true;
             this.textbox_NhaCungCap.Size = new System.Drawing.Size(147, 20);
             this.textbox_NhaCungCap.TabIndex = 11;
             // 
@@ -132,6 +133,7 @@
             this.textbox_GiaBan.Enabled = false;
             this.textbox_GiaBan.Location = new System.Drawing.Point(376, 91);
             this.textbox_GiaBan.Name = "textbox_GiaBan";
+            this.textbox_GiaBan.ReadOnly = true;
             this.textbox_GiaBan.Size = new System.Drawing.Size(159, 20);
             this.textbox_GiaBan.TabIndex = 9;
             // 
@@ -149,6 +151,7 @@
             this.textbox_TenSanPham.Enabled = false;
             this.textbox_TenSanPham.Location = new System.Drawing.Point(376, 44);
             this.textbox_TenSanPham.Name = "textbox_TenSanPham";
+            this.textbox_TenSanPham.ReadOnly = true;
             this.textbox_TenSanPham.Size = new System.Drawing.Size(159, 20);
             this.textbox_TenSanPham.TabIndex = 3;
             // 
@@ -188,6 +191,7 @@
             this.textbox_MaSanPham.Enabled = false;
             this.textbox_MaSanPham.Location = new System.Drawing.Point(100, 44);
             this.textbox_MaSanPham.Name = "textbox_MaSanPham";
+            this.textbox_MaSanPham.ReadOnly = true;
             this.textbox_MaSanPham.Size = new System.Drawing.Size(147, 20);
             this.textbox_MaSanPham.TabIndex = 1;
             // 

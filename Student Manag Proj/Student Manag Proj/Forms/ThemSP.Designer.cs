@@ -38,11 +38,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textbox_GiaBan = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picturebox_AnhDaiDien = new System.Windows.Forms.PictureBox();
             this.button_Cancel = new System.Windows.Forms.Button();
             this.button_Confirm = new System.Windows.Forms.Button();
             this.button_ThemAnh = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturebox_AnhDaiDien)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -125,14 +125,15 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Giá Bán:";
             // 
-            // pictureBox1
+            // picturebox_AnhDaiDien
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(301, 42);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(107, 138);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
+            this.picturebox_AnhDaiDien.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.picturebox_AnhDaiDien.Location = new System.Drawing.Point(301, 42);
+            this.picturebox_AnhDaiDien.Name = "picturebox_AnhDaiDien";
+            this.picturebox_AnhDaiDien.Size = new System.Drawing.Size(107, 138);
+            this.picturebox_AnhDaiDien.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picturebox_AnhDaiDien.TabIndex = 10;
+            this.picturebox_AnhDaiDien.TabStop = false;
             // 
             // button_Cancel
             // 
@@ -176,7 +177,7 @@
             this.Controls.Add(this.button_ThemAnh);
             this.Controls.Add(this.button_Confirm);
             this.Controls.Add(this.button_Cancel);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picturebox_AnhDaiDien);
             this.Controls.Add(this.textbox_GiaBan);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textbox_MaNCC);
@@ -190,7 +191,7 @@
             this.Name = "ThemSP";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thêm Sản Phẩm";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturebox_AnhDaiDien)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -208,7 +209,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textbox_GiaBan;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picturebox_AnhDaiDien;
         private System.Windows.Forms.Button button_Cancel;
         private System.Windows.Forms.Button button_Confirm;
         private System.Windows.Forms.Button button_ThemAnh;
