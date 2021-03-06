@@ -36,6 +36,7 @@ namespace Student_Manag_Proj.Forms
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(38, 132);
             this.dataGridView1.Name = "dataGridView1";
@@ -50,7 +51,7 @@ namespace Student_Manag_Proj.Forms
             this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(212, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(318, 39);
+            this.label1.Size = new System.Drawing.Size(310, 37);
             this.label1.TabIndex = 1;
             this.label1.Text = "Danh sách khách hàng";
             // 
@@ -63,6 +64,7 @@ namespace Student_Manag_Proj.Forms
             this.Controls.Add(this.dataGridView1);
             this.Name = "DanhSachKH";
             this.Text = "DanhSachKH";
+            this.Load += new System.EventHandler(this.DanhSachKH_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

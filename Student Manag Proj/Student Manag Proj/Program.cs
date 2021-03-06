@@ -20,7 +20,7 @@ namespace Student_Manag_Proj
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new form_MainMenu());
-            //Application.Run(new Forms.form_Login());
+            //Application.Run(new Forms.DanhSachKH());
 
             //SQLQuery connect = new SQLQuery();
             //connect.Connect();
